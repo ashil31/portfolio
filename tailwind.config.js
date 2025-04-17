@@ -24,7 +24,8 @@ module.exports = {
         'white': '4px 4px 0 #fff'
       },
       screens: {
-        'xs': {'min': '250px', 'max': '400px'},
+        'xs': {'min': '220px', 'max': '350px'},
+        'xsm': {'min': '350px', 'max': '480px'},
       },
     },
   },
