@@ -12,8 +12,8 @@ module.exports = {
     extend: {
       colors: {
         lightHover: '#fcf4ff',
-        darkHover: '#2a004a',
-        darkTheme: '#11001F',
+        darkHover: '#2A2A2A',
+        darkTheme: '#0C0C0C',
       },
       fontFamily: {
         Outfit: ['Outfit', 'sans-serif'],
@@ -29,6 +29,7 @@ module.exports = {
       },
     },
   },
+  darkMode: 'selector',
   plugins: [],
 }
 

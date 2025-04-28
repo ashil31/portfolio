@@ -35,8 +35,20 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import right_arrow_dark from './right-arrow-dark.png';
+import icpc from './icpc.png';
+import secretary from './secretary.png';
+import developer from './developer.png';
+import github_icon from './github_icon.png';
+import linkdin_icon from './linkedin_icon.png';
 
 export const assets = {
+    right_arrow_dark,
+    github_icon,
+    linkdin_icon,
+    icpc,
+    secretary,
+    developer,
     user_image,
     code_icon,
     code_icon_dark,
@@ -113,3 +125,35 @@ export const infoList = [
 export const toolsData = [
     assets.vscode, assets.mongodb, assets.git
 ];
+
+export const expCards = [
+    {
+        logoPath: assets.developer,
+        title: 'Developer at Flowall Water Pump Company',
+        date: 'May 2023 - June 2023',
+        responsibilities: [
+            "Worked as a Web Developer at Flowall Water Pump Company",
+            "In collaboration with Flowell Water Pump Company, I successfully designed and developed a dynamic and engaging minimalist website",
+            "I built and crafted a digital landscape for Flowell Water Pump with the primary objective of expanding their market reach"
+        ]
+    },
+    {
+        logoPath: assets.secretary,
+        title: 'Secretary of Computer Society and Gaming Club,IAR',
+        date: 'July-2022 - July 2023',
+        responsibilities: [
+            "Served as the Secretary of the Computer Science Club at my college",
+            "As the Secretary of the Computer Society and Gaming Club at Institute of Advanced Research, Gandhinagar, I bring strong leadership and organizational skills",
+            "Successfully coordinated club activities, managed events, and promoted community engagement"
+        ]
+    },
+    {
+        logoPath: assets.icpc,
+        title: 'International Collegiate Programming Contest',
+        date: '2022 (MOSCOW)',
+        responsibilities: [
+            "Participated as Team Member representing our college for the first time in the ICPC Asia Amritapuri First Round Online Programming Region Contest 2022",
+            "Secured Rank 1762 out of 4992 teams",  
+        ]
+    }
+]

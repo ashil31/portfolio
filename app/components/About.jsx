@@ -14,7 +14,7 @@ import rabbitmq from "@/assets/rabbitmq.png";
 import websocket from "@/assets/websocket.png";
 import gsapani from "@/assets/gsap.png";
 
-const About = () => {
+const About = ({isDarkmode, setIsDarkmode}) => {
   const people = [
     {
       id: 1,
@@ -94,18 +94,18 @@ const About = () => {
           </p>
 
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
-            {infoList.map(({ icon, iconDrak, title, description }, index) => (
+            {infoList.map(({ icon, iconDark, title, description }, index) => (
               <li
                 key={index}
-                className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black"
+                className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover"
               >
-                <Image src={icon} alt="title" className="w-7 mt-3" />
-                <h3 className="my-4 font-semibold text-gray-700">{title}</h3>
-                <p className="text-gray-600 text-sm">{description}</p>
+                <Image src={isDarkmode? iconDark : icon} alt="title" className="w-7 mt-3" />
+                <h3 className="my-4 font-semibold text-gray-700 dark:text-white">{title}</h3>
+                <p className="text-gray-600 text-sm dark:text-white/80">{description}</p>
               </li>
             ))}
           </ul>
-          <h4 className="my-6 text-gray-700 font-Ovo">Tools i use</h4>
+          <h4 className="my-6 text-gray-700 font-Ovo dark:text-white">Tools and Technologies I use :</h4>
           <div className="flex flex-row items-center mb-10 w-full">
             <AnimatedTooltip items={people} />
           </div>
