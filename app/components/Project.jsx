@@ -33,19 +33,19 @@ const Project = ({isDarkmode, setIsDarkmode}) => {
               />
             </div>
             <div className="grid grid-cols-3 gap-4 pt-3 mt-2">
-              <p className="border p-1 text-center rounded-lg hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
+              <p title="ReactJS" className="border p-1 text-center rounded-lg hover:bg-lightHover hover:shadow-2xl truncate dark:hover:bg-darkTheme transition-all duration-300">
                 ReactJs
               </p>
               <p title="Google-maps-API" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
                 Google-maps-API              
               </p>
-              <p className="border p-1 text-center rounded-lg hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
+              <p title="SocketIO" className="border p-1 text-center rounded-lg hover:bg-lightHover hover:shadow-2xl truncate dark:hover:bg-darkTheme transition-all duration-300">
                 SocketIO
               </p>
-              <p className="border p-1 text-center rounded-lg hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
+              <p title="ExpreeJs" className="border p-1 text-center rounded-lg hover:bg-lightHover hover:shadow-2xl truncate dark:hover:bg-darkTheme transition-all duration-300">
                 ExpressJs
               </p>
-              <p className="border p-1 text-center rounded-lg hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
+              <p title="MongoDB" className="border p-1 text-center rounded-lg hover:bg-lightHover hover:shadow-2xl truncate dark:hover:bg-darkTheme transition-all duration-300">
                 MongoDB
               </p>
               <p title="Monolithic architecture" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
@@ -80,7 +80,7 @@ const Project = ({isDarkmode, setIsDarkmode}) => {
               />
             </div>
             <div className="grid grid-cols-3 gap-4 pt-3 mt-2">
-              <p className="border p-1 text-center rounded-lg hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
+              <p title="RabbitMQ" className="border p-1 text-center rounded-lg hover:bg-lightHover hover:shadow-2xl truncate dark:hover:bg-darkTheme transition-all duration-300">
                 RabbitMQ
               </p>
               <p title="Microservices-architecture" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
@@ -92,11 +92,11 @@ const Project = ({isDarkmode, setIsDarkmode}) => {
               <p title="Express-http-proxy" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
                 Express-http-proxy
               </p>
-              <p className="border p-1 text-center rounded-lg hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
+              <p title="MongoDB" className="border p-1 text-center rounded-lg hover:bg-lightHover hover:shadow-2xl truncate dark:hover:bg-darkTheme transition-all duration-300">
                 MongoDB
               </p>
-              <p title="" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover dark:hover:bg-darkTheme hover:shadow-2xl transition-all duration-300">
-                Amqplib 
+              <p title="Amqplib" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover truncate dark:hover:bg-darkTheme hover:shadow-2xl transition-all duration-300">
+                Amqplib
               </p>
             </div>
             <div className="flex justify-between items-center pt-2 -mb-3">
@@ -129,10 +129,10 @@ const Project = ({isDarkmode, setIsDarkmode}) => {
               <p title="GreenSock Animation Platform" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
                 GSAP
               </p>
-              <p title="" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
+              <p title="ReactJs" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
                 ReactJs              
               </p>
-              <p title="" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
+              <p title="TailwindCSS" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
                 TailwindCSS
               </p>
             </div>
@@ -163,10 +163,10 @@ const Project = ({isDarkmode, setIsDarkmode}) => {
               />
             </div>
             <div className="grid grid-cols-3 gap-4 pt-3 mt-2 mb-14">
-              <p title="" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
+              <p title="ReactJs" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
                 ReactJs              
               </p>
-              <p title="" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
+              <p title="TailwindCSS" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
                 TailwindCSS
               </p>
             </div>
@@ -197,10 +197,10 @@ const Project = ({isDarkmode, setIsDarkmode}) => {
               />
             </div>
             <div className="grid grid-cols-3 gap-4 pt-3 mt-2 mb-16">
-              <p title="" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
+              <p title="ReactJs" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
                 ReactJs              
               </p>
-              <p title="" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
+              <p title="TailwindCSS" className="border p-1 text-center rounded-lg truncate hover:bg-lightHover hover:shadow-2xl dark:hover:bg-darkTheme transition-all duration-300">
                 TailwindCSS
               </p>
             </div>
